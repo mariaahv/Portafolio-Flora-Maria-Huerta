@@ -45,7 +45,7 @@ font-family: 'Didact Gothic', sans-serif;
 
 .line{
 	width: 4em;
-	border: 2px solid #F05F40;
+	border: 2px solid #8488D5;
 	margin: 1em auto;
 }
 
@@ -55,6 +55,13 @@ font-family: 'Didact Gothic', sans-serif;
 	margin: 1em auto;
 }
 
+.title-proyectos{
+	color: #101455;
+	font-size: 2.5em;
+	text-align: center;
+
+
+}
 .line-white{
 	width: 4em;
 	border: 2px solid #FFFFFF;
@@ -101,6 +108,8 @@ font-family: 'Didact Gothic', sans-serif;
 
 .fixed{
 	background-image: url(../img/fondopink.jpg);
+	background-size: cover;
+
 }
 
 .bg-black{
@@ -140,10 +149,6 @@ font-family: 'Didact Gothic', sans-serif;
 }
 
 
-
-.list{
-	background: ;
-}
 .centrado{
   transform:translateX(25%);
 }
@@ -156,11 +161,11 @@ font-family: 'Didact Gothic', sans-serif;
 .email {
 		font-size: 100px;
 		/* transform:translateX(45%); */
-		color:#AF70A8;
+		color:#101455;
 }
 
 .email:hover{
-	background: 8E5688;
+		color:#AF70A8;
 }
 .navbar .portafolio{
 	color: #afafaf;
@@ -207,11 +212,9 @@ font-family: 'Didact Gothic', sans-serif;
 }
 
 #enlace-cv:hover{
-	background-color: #101455;
+	background-color: #8488D5;
 		/* background: #DA81F5; */
-	color: #DEEFF9;
-
-
+	color: #101455;
 }
 .photo{
 	width: 80%;
@@ -300,7 +303,6 @@ font-family: 'Luckiest Guy', cursive;
 
 .GitHub_boton{
 	text-align: center;
-
 
 }
 
@@ -651,9 +653,7 @@ padding: 50px;
 
 }
 
-.texto{
-	color: white;
-}
+
 
 .titulo_proyectos{
 	color:white;

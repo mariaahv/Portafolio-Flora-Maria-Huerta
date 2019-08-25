@@ -263,7 +263,7 @@ font-family: 'Didact Gothic', sans-serif;
 
 .phrase{
 	font-size: 1em;
-	color:black;
+	color:white;
 	font-weight: bold;
   font-family: 'Didact Gothic', sans-serif;
 	padding-top:20px;
@@ -419,6 +419,7 @@ font-family: 'Luckiest Guy', cursive;
   justify-content: space-between;
 	margin-top: 50px;
 	padding: 10px;
+
 
 }
 .img-2{
@@ -620,10 +621,25 @@ height:300px;
 .demo{
 	background:#101455;
 	color: white;
+	margin: 10px;
 }
 .demo:hover{
 	background: #8B5585;
 
+}
+
+.detalles-proy {
+  margin-bottom: 50px;
+	padding: 0px;
+	margin-top: 40px;
+	background: white;
+	transform: rotate(-1deg)
+
+}
+
+.proy-unitario{
+  margin: 20px;
+	background:#8488D5;
 }
 
 #proyecto{
@@ -634,6 +650,11 @@ height:300px;
 .blue{
 color: #101455;
 
+}
+
+.sombra{
+	background:#101455;
+	color: white;
 }
 
 
@@ -724,10 +745,26 @@ footer {
 		font-size: 4em;
 
 	}
+
+	.detalles-proy {
+		margin-top: 20px;
+		background: #101455;
+		padding: 20px;
+		background: white;
+
+	}
 }
 
 @media (max-width: 640px){
 	body{
 	font-size: 12px;
+
+	}+
+
+	.detalles-proy {
+		padding: 20px;
+		background: white;
+
+
 	}
 }

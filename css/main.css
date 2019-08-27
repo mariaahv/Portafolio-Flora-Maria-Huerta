@@ -224,8 +224,8 @@ font-family: 'Didact Gothic', sans-serif;
 	color: #101455;
 }
 .photo{
-	width: 80%;
-	height: 80%;
+	width: 90%;
+	height: 100%;
 	border-radius: 50%;
 
 }
@@ -245,7 +245,7 @@ font-family: 'Didact Gothic', sans-serif;
 
 .contentpresentacion{
 	text-align: center;
-	background-image: url(../img/aver.jpg);
+	background-image: url(../img/ux.jpg);
 	background-size: cover;
 	width: 100%;
 	height: 800px;
@@ -418,8 +418,12 @@ font-family: 'Luckiest Guy', cursive;
 	display: flex;
   justify-content: space-between;
 	margin-top: 50px;
-	padding: 10px;
+	padding: 5px;
+}
 
+
+.img-paper {
+	width: 100%;
 
 }
 .img-2{
@@ -448,11 +452,12 @@ font-family: 'Luckiest Guy', cursive;
 
 .recursos{
 	/* background: CFE9F8; */
-	background:#CFE9F8;
 
 	margin-top: 5%;
-	box-shadow: 0 0 20px #E8C6F7;
 	padding:2%;
+	text-align: left;
+	text-align: center;
+
 }
 
 .text-intereses{
@@ -657,6 +662,9 @@ color: #101455;
 	color: white;
 }
 
+#white{
+	color: white;
+}
 
 
 .gitboton:hover{
@@ -685,18 +693,19 @@ padding: 50px;
 
 
 .titulo_proyectos{
-	color:white;
-  background:#2479AC;
+	color:#101455;
   padding: 5%;
+	text-align: left;
+	font-weight: bold;
+	text-align: center;
 }
 
 /* .text-blue{
 	color:gray;
 } */
 
-.proyectos-desc{
-	margin: %;
-
+.margenes{
+padding: 50px;
 }
 
 .fondo{
@@ -753,6 +762,14 @@ footer {
 		background: white;
 
 	}
+
+	.img {
+		width: 100%;
+		display: flex;
+	  justify-content: space-between;
+		padding: 10px;
+
+	}
 }
 
 @media (max-width: 640px){
@@ -764,6 +781,14 @@ footer {
 	.detalles-proy {
 		padding: 20px;
 		background: white;
+
+	}
+
+	.img {
+		width: 100%;
+		display: flex;
+	  justify-content: space-between;
+		padding: 10px;
 
 
 	}

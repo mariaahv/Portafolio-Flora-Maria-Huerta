@@ -86,9 +86,8 @@ font-family: 'Didact Gothic', sans-serif;
 .fondo-sobremi{
 	/*background-image: url(../img/fondopink.jpg);*/
 	background-size: cover;
-	margin: -20px;
-	background: linear-gradient(#2479AC,#E8C6F7);
-	padding: 50px;
+	background: linear-gradient(#E8C6F7,#2479AC);
+	padding: 15px;
 
 }
 .text-portafolio{
@@ -125,9 +124,7 @@ font-family: 'Didact Gothic', sans-serif;
 	background-color: gray;
 }
 
-.ver{
-	/* background:#AF70A8; */
-}
+
 /*--------HEADER----------*/
 .bg-image{
 	background-image: url(../img/imagen-ux.jpg);
@@ -172,14 +169,14 @@ font-family: 'Didact Gothic', sans-serif;
 }
 
 .email:hover{
-		color:#AF70A8;
+		color:#2479AC;
 }
 .navbar .portafolio{
 	color: #afafaf;
 }
 .navbar #bs-example-navbar-collapse-1 .list{
 	color: white;
-  background-image: url(../img/fondo-fixed.jpg);
+/*  background-image: url(../img/fondo-fixed.jpg);*/
 }
 .navbar #bs-example-navbar-collapse-1 .list:hover{
 	color:#101455 ;
@@ -223,11 +220,17 @@ font-family: 'Didact Gothic', sans-serif;
 		/* background: #DA81F5; */
 	color: #101455;
 }
-.photo{
-	width: 90%;
-	height: 100%;
-	border-radius: 50%;
+.photo1{
+	width: 70%;
+	border-radius: 0%;
+	transform: rotate(-3deg);
+	padding: 14px;
+}
 
+.photo2{
+	width: 70%;
+	transform: rotate(-2deg);
+	padding: : 12px;
 }
 .photos{
 	width: 100%;
@@ -383,7 +386,14 @@ font-family: 'Luckiest Guy', cursive;
 /*--------HABILIDADES----------*/
 
 .section_habilidades{
+	 background: linear-gradient(#2479AC,#E8C6F7);
+	 padding: 15px;
+
+}
+
+.section_logros{
 	 background: linear-gradient(#E8C6F7,#2479AC);
+	 padding: 15px;
 
 }
 .habilidades{
@@ -415,10 +425,19 @@ font-family: 'Luckiest Guy', cursive;
 /*--------NUEVOS PROYECTOS----------*/
 .img {
 	width: 100%;
+	height: 120%;
 	display: flex;
   justify-content: space-between;
 	margin-top: 50px;
 	padding: 5px;
+}
+
+.prototipo{
+
+		width: 100%;
+		display: flex;
+	  justify-content: space-between;
+
 }
 
 
@@ -770,6 +789,8 @@ footer {
 		padding: 10px;
 
 	}
+
+
 }
 
 @media (max-width: 640px){
@@ -790,6 +811,14 @@ footer {
 	  justify-content: space-between;
 		padding: 10px;
 
-
 	}
+
+	.prototipo{
+			width: 100%;
+			display: flex;
+		  justify-content: space-between;
+			margin:5px;
+	}
+
+
 }

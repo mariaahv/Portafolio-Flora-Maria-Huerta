@@ -2,7 +2,7 @@
 body{
 	font-size: 16px;
 font-family: 'Didact Gothic', sans-serif;
-	background: #FBEFFB;
+	background: ;
 	/* overflow: hidden; */
 }
 
@@ -16,6 +16,7 @@ font-family: 'Didact Gothic', sans-serif;
 .subtitulos-proyecto{
 	font-weight: bold;
 	text-align: center;
+
 }
 
 .lista{
@@ -72,8 +73,8 @@ font-family: 'Didact Gothic', sans-serif;
 
 }
 .line-white{
-	width: 4em;
-	border: 2px solid #FFFFFF;
+	width: 10em;
+	border: 3px solid #00B4CB;
 	margin: 1em auto;
 }
 .bg-portafolio{
@@ -86,7 +87,7 @@ font-family: 'Didact Gothic', sans-serif;
 .fondo-sobremi{
 	/*background-image: url(../img/fondopink.jpg);*/
 	background-size: cover;
-	background: linear-gradient(#E8C6F7,#2479AC);
+ background:white;
 	padding: 15px;
 
 }
@@ -115,7 +116,7 @@ font-family: 'Didact Gothic', sans-serif;
 }
 
 .fixed{
-	background-image: url(../img/fondopink.jpg);
+	background: #101455;
 	background-size: cover;
 
 }
@@ -179,7 +180,7 @@ font-family: 'Didact Gothic', sans-serif;
 /*  background-image: url(../img/fondo-fixed.jpg);*/
 }
 .navbar #bs-example-navbar-collapse-1 .list:hover{
-	color:#101455 ;
+	color:#A9E2F3 ;
 }
 .boton{
 	border: none;
@@ -199,7 +200,6 @@ font-family: 'Didact Gothic', sans-serif;
 .text-frase{
 
 	color: #101455;
-	margin-top: 100px;
 	font-size: 15px;
 	font-weight: bolder;
 }
@@ -209,14 +209,16 @@ font-family: 'Didact Gothic', sans-serif;
 	background: #101455;
 		/* background-color: #e75232;O */
 	color:white;
-	margin-top: 0px;
+   border:3px solid #101455;
+
 }
 
 #enlace-cv:hover{
-	background-color: #101455;
+	background-color: white;
 	/* background: #DA81F5; */
-	color: #E8C6F7;
-	border: 2px #E8C6F7;
+	color:#101455;
+	border:3px solid #101455;
+
 }
 .photo1{
 	width: 70%;
@@ -302,8 +304,9 @@ font-family: 'Didact Gothic', sans-serif;
 	color: #101455;
 	font-size: 2.5em;
 	text-align: center;
+	font-weight: bolder;
+  font-family: 'Cinzel', serif;
 }
-
 .tittle2{
 	color: #101455;
 	font-size: 7em;
@@ -313,7 +316,6 @@ font-family: 'Luckiest Guy', cursive;
 
 .GitHub_boton{
 	text-align: center;
-
 }
 
 
@@ -326,7 +328,7 @@ font-family: 'Luckiest Guy', cursive;
 .capitalLetter
 {
    float:left;
-   color:black;
+   color:#101455;
 
    font-size:80px;
    line-height:60px;
@@ -359,7 +361,7 @@ font-family: 'Luckiest Guy', cursive;
 }
 
 .seccion-contactame{
-	background: linear-gradient(#2479AC,#E8C6F7);
+ background: white;
 	padding: 50px;
 }
 
@@ -386,13 +388,13 @@ font-family: 'Luckiest Guy', cursive;
 /*--------HABILIDADES----------*/
 
 .section_habilidades{
-	 background: linear-gradient(#2479AC,#E8C6F7);
+
 	 padding: 15px;
 
 }
 
 .section_logros{
-	 background: linear-gradient(#E8C6F7,#2479AC);
+ background: white;
 	 padding: 15px;
 
 }
@@ -480,7 +482,7 @@ font-family: 'Luckiest Guy', cursive;
 }
 
 .text-intereses{
-	color: #530D4B;
+
 	padding: 10%;
 	justify-content: center;
 
@@ -493,7 +495,7 @@ font-family: 'Luckiest Guy', cursive;
 }
 
 .strong_letter{
-	color: #101455;
+	color: #00B4CB;
 }
 
 .color-titulo{
@@ -512,16 +514,15 @@ font-family: 'Luckiest Guy', cursive;
 .skills{
 
 		margin-top: 5%;
-		box-shadow: 0 0 20px #101455;
+		box-shadow: 0 0 2px #00B4CB;
 		border-radius: 15px;
-		background: ##8488D5;
+
 
 		/* margin: 10%; */
 
 }
 
 .img_skills{
-
   vertical-align: middle;
 	margin: 100px;
 
@@ -534,7 +535,7 @@ img .img_skills{
 .intereses{
 	background: white;
 	margin-top: 5%;
-	box-shadow: 0 0 20px #E192D8;
+	box-shadow: 0 0 2px #00B4CB;
 	border-radius: 15px;
 	/* margin: 10%; */
 
@@ -545,7 +546,7 @@ img .img_skills{
 }
 
 .seccion-intereses{
-	 background: linear-gradient(#2479AC,#E8C6F7);
+ background: white;
   padding: 50px;
 
 }
@@ -564,7 +565,7 @@ img .img_skills{
 }
 
 .btn-recursos{
-	background: #fff;
+	background:#A9E2F3;
 	border: none;
 	border-radius: 70px;
 	margin-bottom: 2px;
@@ -663,7 +664,7 @@ height:300px;
   margin-bottom: 50px;
 	padding: 0px;
 	margin-top: 40px;
-	background: white;
+	background: #A9E2F3;
 	transform: rotate(-1deg)
 
 }
@@ -714,9 +715,7 @@ color: #101455;
 }
 
 .seccion-proyectos{
-
-	background: linear-gradient(#E8C6F7,#2479AC);
-
+ background: white;
 	/* background: #FBEFFB; */
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -725,10 +724,22 @@ padding: 50px;
 
 }
 
+.como{
+	color: #00B4CB;
+}
 
+.comogeneral{
+	color: #00B4CB;
+}
+
+.como-biografy{
+	color: #00B4CB;
+	font-size: 15px;
+	font-weight: bolder;
+}
 
 .titulo_proyectos{
-	color:#101455;
+	color:#00B4CB;
   padding: 5%;
 	text-align: left;
 	font-weight: bold;
@@ -792,9 +803,9 @@ footer {
 
 	.detalles-proy {
 		margin-top: 20px;
-		background: #101455;
+		background:#A9E2F3;
 		padding: 20px;
-		background: white;
+
 
 	}
 
@@ -817,7 +828,7 @@ footer {
 
 	.detalles-proy {
 		padding: 20px;
-		background: white;
+		background: #A9E2F3;
 
 	}
 

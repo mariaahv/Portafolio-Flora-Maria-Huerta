@@ -250,7 +250,7 @@ font-family: 'Didact Gothic', sans-serif;
 
 .contentpresentacion{
 	text-align: center;
-	background-image: url(../img/ux.jpg);
+	background-image: url(../img/gradu.jpg);
 	background-size: cover;
 	width: 100%;
 	height: 800px;
@@ -262,8 +262,50 @@ font-family: 'Didact Gothic', sans-serif;
 
 }
 
+
+
 .contentpresentacion h3,h2 ,p{
 	position: relative;
+}
+
+.skills{
+
+		border-radius: 15px;
+
+}
+
+.skills::before{
+	content: "";
+	width: 90%;
+	height: 100%;
+	position: absolute;
+
+background-image: url(../img/editado.jpg);
+box-shadow: 0 0 2px #00B4CB;
+border-radius: 15px;
+background-size: cover;
+opacity: 0.7;
+
+
+}
+
+.skillss{
+
+	border-radius: 15px;
+
+}
+
+.skillss::before{
+	content: "";
+	width: 90%;
+	height: 100%;
+	position: absolute;
+	background-image: url(../img/laptop.jpg);
+	background-size: cover;
+box-shadow: 0 0 2px #00B4CB;
+border-radius: 15px;
+opacity: 0.4;
+
 }
 
 .phrase{
@@ -292,6 +334,8 @@ font-family: 'Didact Gothic', sans-serif;
 	opacity: 0.7;
 
 }
+
+
 
 .texto-name {
   background: #101455;
@@ -492,10 +536,11 @@ font-family: 'Luckiest Guy', cursive;
 	color: #151965;
 	padding: 10%;
 	justify-content: center;
+	position: relative;
 }
 
 .strong_letter{
-	color: #00B4CB;
+	color: #151965;
 }
 
 .color-titulo{
@@ -511,22 +556,10 @@ font-family: 'Luckiest Guy', cursive;
 		color: white;
 }
 
-.skills{
-
-		margin-top: 5%;
-		box-shadow: 0 0 2px #00B4CB;
-		border-radius: 15px;
 
 
-		/* margin: 10%; */
 
-}
 
-.img_skills{
-  vertical-align: middle;
-	margin: 100px;
-
-}
 
 img .img_skills{
 	margin-tp:0;
@@ -578,7 +611,7 @@ img .img_skills{
 -moz-transition:all .9s ease; /* Firefox */
 -o-transition:all .9s ease; /* IE 9 */
 -ms-transition:all .9s ease; /* Opera */
-width:80%;
+width:100%;
 text-align: center;
 }
 .img-contenedor:hover img {
@@ -587,10 +620,15 @@ text-align: center;
 -ms-transform:scale(1.25);
 -o-transform:scale(1.25);
 transform:scale(1.25);
+text-align: center;
 }
 .img-contenedor {/*Ancho y altura son modificables al requerimiento de cada uno*/
 width:250px;
 height:300px;
+
+}
+
+.img_skills{
 
 }
 
@@ -690,6 +728,7 @@ height:300px;
 
 .blue{
 color: #101455;
+text-align: center;
 
 }
 
@@ -845,6 +884,14 @@ footer {
 			display: flex;
 		  justify-content: space-between;
 			margin:5px;
+	}
+
+	.text-skills{
+		color: #151965;
+		padding: 10%;
+		font-size: 20px;
+		justify-content: center;
+		position: relative;
 	}
 
 

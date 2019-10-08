@@ -312,7 +312,6 @@ opacity: 0.4;
 	font-size: 1em;
 	color:white;
 	font-weight: bold;
-  font-family: 'Didact Gothic', sans-serif;
 	padding-top:20px;
 }
 
@@ -373,11 +372,10 @@ font-family: 'Luckiest Guy', cursive;
 {
    float:left;
    color:#101455;
-
    font-size:80px;
    line-height:60px;
    padding:2px;
-     font-family: 'Grand Hotel', cursive;
+  font-family: 'Grand Hotel', cursive;
    margin-right: 5px;
 }
 
@@ -407,15 +405,6 @@ font-family: 'Luckiest Guy', cursive;
 .seccion-contactame{
  background: white;
 	padding: 50px;
-}
-
-
-	/* font-family: 'Ubuntu Condensed', sans-serif; */
-	font-family: 'Dancing Script', cursive;
-
-	/* color: gray; */
-	color: #101455;
-
 }
 
 
@@ -710,7 +699,13 @@ height:300px;
 .img_landing{
 
 	width: 100%;
-	margin: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+}
+
+.img_lg{
+	width: 100%;
+	margin-right:1%;
 }
 
 .margin{
@@ -856,6 +851,10 @@ footer {
 
 	}
 
+	.margenes{
+	padding: 0px;
+	}
+
 
 }
 
@@ -865,8 +864,9 @@ footer {
 
 	}+
 
+
 	.detalles-proy {
-		padding: 20px;
+		padding: 0px;
 		background: #A9E2F3;
 
 	}

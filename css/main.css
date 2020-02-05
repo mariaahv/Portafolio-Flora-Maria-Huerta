@@ -776,6 +776,24 @@ padding: 50px;
 	text-align: center;
 }
 
+.titulo_skills-both{
+	font-size: 2em;
+	color:white;
+  padding: 5%;
+	text-align: left;
+	font-weight: bold;
+	text-align: center;
+}
+
+.resaltar_skills-both{
+	font-size: 1em;
+	color:white;
+  padding: 5%;
+	text-align: left;
+	font-weight: bold;
+	text-align: center;
+}
+
 /* .text-blue{
 	color:gray;
 } */

@@ -317,10 +317,9 @@ background-image: url(../img/gradu.jpg);
 	width: 90%;
 	height: 100%;
 	position: absolute;
-background-image: url(../img/editado.jpg);
-box-shadow: 0 0 2px #00B4CB;
-border-radius: 15px;
-opacity: 0.6;
+	box-shadow: 0 0 2px #00B4CB;
+	border-radius: 15px;
+	opacity: 0.6;
 
 }
 
@@ -393,6 +392,7 @@ opacity: 0.4;
 	text-align: center;
 	font-weight: bolder;
   font-family: 'Cinzel', serif;
+
 }
 .tittle2{
 	color: #101455;
@@ -406,6 +406,16 @@ opacity: 0.4;
 	text-align: center;
 }
 
+.img_skills{
+
+  vertical-align: middle;
+	margin: 65px;
+
+}
+
+img .img_skills{
+	margin-tp:0;
+}
 
 .GitHub_boton:hover{
 	background-color: #e75232;
@@ -474,6 +484,7 @@ opacity: 0.4;
 
 	 padding: 15px;
 	 background: white;
+
 
 }
 
@@ -570,7 +581,7 @@ opacity: 0.4;
 
 .text-skills{
 	color: #151965;
-	padding: 10%;
+	padding: 5%;
 	justify-content: center;
 	position: relative;
 }
@@ -583,6 +594,14 @@ opacity: 0.4;
 	padding: 5%;
 	background: #FBEFFB;
 	color: purple;
+
+}
+
+
+
+.gradient{
+	background: linear-gradient(to bottom,#101455, white);
+
 
 }
 
@@ -903,10 +922,13 @@ footer {
 
 	}
 
-	.tittle2{
-		color: #101455;
-		font-size: 4em;
 
+
+	.tittle22{
+		color: #101455;
+		font-size: 10em;
+		font-weight: bold;
+	  font-family: 'Luckiest Guy', cursive;
 	}
 
 
@@ -963,8 +985,7 @@ footer {
 
 	.text-skills{
 		color: #151965;
-		padding: 10%;
-		font-size: 20px;
+		font-size: 15px;
 		justify-content: center;
 		position: relative;
 	}
@@ -977,6 +998,11 @@ footer {
 
 	.contentpresentacion{
 		flex-direction:column;
+
+	}
+
+	.titulo_skills-both{
+		font-size: 2em;
 
 	}
 
